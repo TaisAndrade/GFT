@@ -1,0 +1,70 @@
+package test;
+
+import java.util.Scanner;
+
+public class Suco {
+
+  public static void main(String[] args) {
+
+   Scanner in = new Scanner(System.in);
+
+   
+
+   int sabor;
+
+   double valor = 7;
+
+   
+
+   System.out.println("Escolha o sabor");
+
+   System.out.println("1-L-Limao: ");   
+
+   System.out.println("2-L-Tamarindo");
+
+  
+
+   sabor=in.nextInt();
+
+   
+
+   switch(sabor){
+
+     case 1:
+
+      System.out.println("Limao");
+
+      System.out.println("Valor 7 com desconto");
+
+      System.out.println("Ate 2L(3%) Acima 5(5%)");
+
+     break;
+
+     
+
+     case 2:
+
+     System.out.println("Tamarindo");
+
+       System.out.println("Valor 7 com desconto");
+
+      System.out.println("Ate 2L(4%) Acima 5(6%)");
+
+     break;
+
+     
+
+   }
+
+   
+
+   
+
+ 
+
+   
+
+  }
+
+}
+
